@@ -7,7 +7,7 @@ import errorHandlerReducer from './store/reducers/errorHandlerReducer';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import thunk from 'redux-thunk'; 
-import * as serviceWorker from './serviceWorker';
+
 
 
 const rootReducers = combineReducers({
